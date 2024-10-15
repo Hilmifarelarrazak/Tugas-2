@@ -1,8 +1,6 @@
-def check_odd_even(bilangan):
-    if bilangan % 2 == 0:
-        return "Bilangan genap"
-    else:
-        return "Bilangan ganjil"
+bilangan = int(input("Masukkan sebuah bilangan: "))
 
-bilangan = int(input("Masukkan bilangan: "))
-print(check_odd_even(bilangan))
+if bilangan % 2 == 0:
+    print(f"{bilangan} adalah bilangan genap.")
+else:
+    print(f"{bilangan} adalah bilangan ganjil.")
